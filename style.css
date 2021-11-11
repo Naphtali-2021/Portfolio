@@ -31,7 +31,7 @@ header{
 
 .nav a:hover{
     cursor: pointer;
-    color: black;
+    color: darkred;
 }
 
 .name{
