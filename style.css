@@ -47,19 +47,36 @@ header{
 .header-desc{
     text-align: center;
     margin-top:170px;
-    color: white;
+    color: darkred;
 }
 
 .about{
+    margin-top: 5px;
+    height: 70vh;
+}
 
+.about .row{
+    display: flex;
+    flex-direction: row;
 }
 
 .about .row .col1{
+    width:50%;
+    padding: 50px;
+    margin-left: 100px;
+}
 
+.about .row .col1 img{
+    width:200px;
+    height: 200px; 
+    border-radius: 500px 500px 500px 500px;
+    border-radius: 1px solid darkred;
 }
 
 .about .row .col2{
-    
+    width:50%;
+    padding: 50px;
+    margin-right: 100px;
 }
 
 .projects .row .col1{
