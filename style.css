@@ -43,3 +43,9 @@ header{
     height: 120px;
     border-radius: 500px 500px 500px 500px;
 }
+
+.header-desc{
+    text-align: center;
+    margin-top:170px;
+    color: white;
+}
