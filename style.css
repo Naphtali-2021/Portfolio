@@ -52,7 +52,7 @@ header{
 
 .about{
     margin-top: 5px;
-    height: 70vh;
+    height: 50vh;
 }
 
 .about .row{
@@ -79,13 +79,31 @@ header{
     margin-right: 100px;
 }
 
-.projects .row .col1{
-    
+.projects {
+    margin-top: 5px;
+    height: 50vh;
 }
 
-.projects .row .col2{
-    
+.container-projects{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
+.project1{
+    padding: 30px;
+    margin:10px;
+    width:40%;
+    height:100px;
+}
+
+.project2{
+    padding: 30px;
+    margin:10px;
+    width: 40%;
+    height: 100px;
+}
+
 
 .contact .row .col1{
     
